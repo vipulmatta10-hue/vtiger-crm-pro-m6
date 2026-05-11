@@ -1,0 +1,8 @@
+crm\org\CreateOrgTest.class
+testng_extra\CreateAnnTest.class
+pom_extra\OrganizationTest.class
+crm\lead\CreateLeadTest.class
+pom_extra\LoginVtigerTest.class
+Test.class
+crm\email\CreateEmailTest.class
+gu_extra\Handling_windows.class
