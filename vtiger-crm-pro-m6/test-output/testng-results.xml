@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Create]]>
+    </line>
+    <line>
+      <![CDATA[Modify]]>
+    </line>
+    <line>
+      <![CDATA[Delete]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-05-11T18:58:17 IST" name="Default suite" finished-at="2026-05-11T19:00:03 IST" duration-ms="105796">
+    <groups>
+    </groups>
+    <test started-at="2026-05-11T18:58:17 IST" name="Default test" finished-at="2026-05-11T19:00:03 IST" duration-ms="105796">
+      <class name="testng_extra.CreateAnnTest">
+        <test-method signature="createContactTest()[pri:-1, instance:testng_extra.CreateAnnTest@5bda8e08]" started-at="2026-05-11T18:58:17 IST" name="createContactTest" finished-at="2026-05-11T18:58:18 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Create]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method signature="modifyContactTest()[pri:0, instance:testng_extra.CreateAnnTest@5bda8e08]" started-at="2026-05-11T18:58:18 IST" name="modifyContactTest" finished-at="2026-05-11T18:58:18 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Modify]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- modifyContactTest -->
+        <test-method signature="deleteContactTest()[pri:1, instance:testng_extra.CreateAnnTest@5bda8e08]" started-at="2026-05-11T18:58:18 IST" name="deleteContactTest" finished-at="2026-05-11T18:58:18 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Delete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteContactTest -->
+      </class> <!-- testng_extra.CreateAnnTest -->
+      <class name="pom_extra.OrganizationTest">
+        <test-method is-config="true" signature="openBro()[pri:0, instance:pom_extra.OrganizationTest@23348b5d]" started-at="2026-05-11T18:58:18 IST" name="openBro" finished-at="2026-05-11T18:58:21 IST" duration-ms="3493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBro -->
+        <test-method is-config="true" signature="login()[pri:0, instance:pom_extra.OrganizationTest@23348b5d]" started-at="2026-05-11T18:58:21 IST" name="login" finished-at="2026-05-11T18:58:37 IST" duration-ms="15613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createOrganizationTest()[pri:0, instance:pom_extra.OrganizationTest@23348b5d]" started-at="2026-05-11T18:58:37 IST" name="createOrganizationTest" finished-at="2026-05-11T18:59:54 IST" duration-ms="76912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganizationTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:pom_extra.OrganizationTest@23348b5d]" started-at="2026-05-11T18:59:54 IST" name="logout" finished-at="2026-05-11T19:00:03 IST" duration-ms="9447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBro()[pri:0, instance:pom_extra.OrganizationTest@23348b5d]" started-at="2026-05-11T19:00:03 IST" name="closeBro" finished-at="2026-05-11T19:00:03 IST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBro -->
+      </class> <!-- pom_extra.OrganizationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
