@@ -36,6 +36,7 @@ public class Listeners_Implementations implements ISuiteListener, ITestListener 
 
 		report = new ExtentReports();
 		report.attachReporter(spark);
+		report.attachReporter(spark1);
 		report.setSystemInfo("key1", "value1");
 		report.setSystemInfo("key2", "value2");
 		report.setSystemInfo("key3", "value3");
