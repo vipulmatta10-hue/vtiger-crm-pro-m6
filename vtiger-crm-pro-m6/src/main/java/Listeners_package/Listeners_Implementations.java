@@ -28,14 +28,13 @@ public class Listeners_Implementations implements ISuiteListener, ITestListener 
 	public void onStart(ISuite suite) {
 		System.out.println("report configuration from listeners");
 		String time = JavaUtility.generateDateTime();
-		ExtentSparkReporter spark = new ExtentSparkReporter("./report/" + time + ".html");
+		//ExtentSparkReporter spark = new ExtentSparkReporter("./report/" + time + ".html");
 		ExtentSparkReporter spark1 = new ExtentSparkReporter("./target/ExtentReports/index.html");
-		spark.config().setDocumentTitle("VTiger CRM Report");
-		spark.config().setReportName("Issue List of Organization Module");
-		spark.config().setTheme(Theme.STANDARD);
+		spark1.config().setDocumentTitle("VTiger CRM Report");
+		spark1.config().setReportName("Issue List of Organization Module");
+		spark1.config().setTheme(Theme.STANDARD);
 
 		report = new ExtentReports();
-		report.attachReporter(spark);
 		report.attachReporter(spark1);
 		report.setSystemInfo("key1", "value1");
 		report.setSystemInfo("key2", "value2");

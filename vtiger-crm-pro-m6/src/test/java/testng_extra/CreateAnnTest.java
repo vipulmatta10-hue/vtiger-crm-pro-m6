@@ -1,7 +1,10 @@
 package testng_extra;
 
 import org.testng.Reporter;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+
+@Listeners(Listeners_package.Listeners_Implementations.class)
 
 public class CreateAnnTest {
 	@Test(priority=-1)
